@@ -9,6 +9,7 @@ export const HomePage = () => {
 
             <div className={styles.content}>
                 <div className={styles.section}>
+                    <h2>👋 Giới thiệu</h2>
                     <p>
                         Xin chào! Mình là <strong>Lê Mạnh Hùng</strong>, sinh viên tại
                         <em> Học viện Công nghệ Bưu chính Viễn thông (PTIT)</em>.
@@ -21,19 +22,23 @@ export const HomePage = () => {
                 </div>
 
                 <div className={styles.section}>
-                    <h2>👉 Bạn có thể:</h2>
+                    <h2>🎯 Khám phá</h2>
                     <ul>
                         <li>
-                            🔍 <Link to="/about">Tìm hiểu thêm về mình</Link>
+                            <Link to="/about">
+                                🔍 Tìm hiểu thêm về mình
+                            </Link>
                         </li>
                         <li>
-                            📚 <Link to="/blogpage">Xem các bài viết mới nhất</Link>
+                            <Link to="/blogpage">
+                                📚 Xem các bài viết mới nhất
+                            </Link>
                         </li>
                     </ul>
                 </div>
 
                 <p className={styles.thankYou}>
-                    Cảm ơn bạn đã ghé thăm!
+                    ✨ Cảm ơn bạn đã ghé thăm!
                 </p>
             </div>
         </div>
